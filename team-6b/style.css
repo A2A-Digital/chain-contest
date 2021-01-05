@@ -1,0 +1,1002 @@
+/* overall */
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-y: visible;
+}
+
+body{
+    margin: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:active{
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:focus {
+    outline:0;
+}
+
+.l_container{
+    width: 70%;
+    margin: auto;
+}
+
+/* 1. heading */
+.c_nav{
+    width: 100%;
+    background: white;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    top:0;
+}
+
+.l_logo{
+    z-index: 99;
+}
+
+.c_nav .l_container{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.l_nav__items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.c_item{
+    padding: 10px 20px;
+    font-size: 18px;
+    opacity: 0.5;
+}
+
+#home{
+    opacity: 1;
+    font-weight: bold;
+}
+
+.leading_ele1{
+    text-align: left;
+    position: absolute;
+}
+
+/* 1.1 info*/
+
+.c_info .l_container{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 7%;
+}
+
+.l_content{
+    width: 36%;
+    margin-top: 5%;
+}
+
+.l_content h1{
+    font-weight: bolder;
+}
+
+.l_content p{
+    font-size: 23px;
+}
+
+.l_main__img img{
+    width: 693px;
+    height: 598px;
+}
+
+.l_menu__button{
+    display: none;
+    width: 30px;
+    height: 20px;
+    border-radius: 55px;
+    background: rgb(160, 151, 151);
+}
+
+.c_button{
+    border: none;
+    border-radius: 55px;
+    font-size: 18px;
+    padding: 15px 40px;
+    background: #458FF6;
+    color: white;
+    margin-top: 10px;
+}
+/* 1. end heading */
+
+/* 2.service */
+#services{
+    width: 70%;
+    margin: 10% auto;
+}
+
+.l_services{
+    width: 100%;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.c_services_bg-element{
+    position: absolute;
+    z-index: -1;
+    left: -5%;
+    top: 90%;
+}
+.c_services_element{
+    position: absolute;
+    right: 2%;
+    padding: 160px;
+    top: 50%;
+    opacity: 0.3;
+}
+
+.c_services_bg-element img{
+    width: 1000px;
+    height: 800px;
+    opacity: 0.5;
+}
+
+.l_title{
+    text-align: center;
+}
+.c_title{
+    font-size: 24px;
+    font-size: 36px;
+    
+    font-weight: 700;
+    line-height: 56px;
+}
+
+/* background */
+.c_content{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #7D7987;
+    align-items: center;
+
+}
+
+.c_Rectangle2{
+    width: 56px;
+    height: 2px;
+    background: #000000;
+    border-radius: 5px;
+    margin: 40px auto;
+}
+
+/* 2.2 allservices */
+.l_allservices{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    margin: 30px;
+}
+
+.l_frame div h3{
+    margin-top: 20px;
+}
+
+.l_frame div p{
+    font-size: 16px;
+    margin-top: 20px;
+    
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.l_frame div img{
+    margin-top: 1rem;
+}
+
+.l_frame{
+    width: 290px;
+    min-height: 300px;
+    padding: 8px;
+    margin: 0 20px 40px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+}
+/* 2. end service */
+
+
+/* 3. leading */
+.l_leading .l_container{
+    margin-left: 12%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.c_hr{
+    width: 15% ;
+    margin: 4% 0%;
+    height: 3px;
+    border: none;
+    background: black;
+}
+
+.c_top_con{
+    width: 75%;
+    margin-bottom: 8%;
+    margin-top: 10%;
+}
+
+.c_top_con h2{
+    font-size: 36px;
+}
+
+.c_leading__phrase{
+    font-size: 20px;
+    width: 100%;
+    line-height: 30px;
+    margin: 5% 0%;
+}
+
+.c_leading__btn{
+    border: 1.4px solid #458FF6;
+    border-radius: 55px;
+    background: none;
+    font-size: 20px;
+    padding: 10px 30px;
+    color: #458FF6;
+}
+
+.l_leading__content{
+    width: 35%;
+    margin-top: 5%;
+}
+
+.l_leading__content img{
+    width: 650px;
+    height: 477px;
+}
+
+
+/* background element */
+.leading_ele2{
+    width: 100%;
+    text-align: right;
+}
+/* end leading */
+
+
+/* 4. download */
+
+.l_leading2 .l_container{
+    margin-right: 12%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.l_leading2 .l_leading__btn img{
+    width: 20px;
+    height: 20px;
+}
+
+.l_leading2 .c_leading__btn{
+    display: flex;
+    align-items: center;
+    border-radius: 55px;
+    height: 60px;
+}
+
+
+
+/* 4. end download */
+
+/* 5. testimonail */
+
+.mySlides{
+    display: none;
+}
+
+.l_testimonails{
+    margin: 15% 0;
+}
+
+.l_test__ele{
+    position: absolute;
+    display: flex;
+    width: 65%;
+}
+
+.l_test__ele img{
+    width: 12%;
+    position: absolute;
+    right: 0;
+}
+
+.l_testimonails .l_container{
+    padding: 2% 0;
+    border-radius: 24px;
+    width: 65%;
+    margin: auto;
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+}
+
+.prev, .next{
+    width: auto;
+    margin: 0 5%;
+    color: #458FF6;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.l_test__title{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.l_main__slider img{
+    top: auto;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 3px solid white;
+}
+
+.c_logo__first{
+    width: 40%;
+    display: flex;
+}
+
+.c_first{
+    margin-left: 10%;
+}
+
+.c_first p, h4{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.c_second{
+    width: 40%;
+}
+
+.c_second p{
+    font-size: 19px;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.l_main__slider{
+    padding: 5% 10%;
+    display: flex;
+    justify-content: space-between;
+}
+/* 5. end of testimonail */
+
+
+/* 6. our article */
+
+.l_article_text{
+    text-align: center;
+}
+
+.c_article_title{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.c_article_rectanhle{
+    margin-top: 2rem;
+    height: 2px;
+    width: 56px;
+    background: #000000;
+    border-radius: 5px;
+    margin-left: 50%;
+}
+
+.c_article_element{
+    position: absolute;
+    left: 12.9%;
+    opacity: 0.3;
+}
+
+.c_article_bg_element{
+    position: absolute;
+    opacity: 0.6;
+    z-index: -1;
+    right: 0%;
+    
+}
+
+.l_all_article{
+    justify-content: center;
+    display: flex;
+    margin-top: 40px ;
+}
+
+.l_article{
+    margin: 1.5rem;
+    width: 350px;
+    height: 512px;
+    background: #FFFFFF;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+}
+
+.l_article h1{
+    margin-top: 2rem;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+}
+
+.l_article img{
+    height: 246px;
+    width: 350px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.l_article p{
+    font-size: 16px;  
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.l_article div{
+    margin-top: 2rem;
+    font-size: 17px;
+    
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    height: 28px;
+    width: 266px;
+    color: #4089ED;
+}
+
+.l_article div img{
+    height: 9px;
+    width: 14px;
+}
+
+.l_article_btn{
+    margin: 30px;
+    text-align: center; 
+}
+
+.l_article_btn button{
+    width: 200px;
+    height: 60px;
+    color: #458FF6;
+    border-radius: 55px;
+    background-color: white;
+    border:1.4px solid #458FF6;
+}
+/* 6. end testimonails */
+
+/* 7. footer */
+
+.l_footer{
+    background:  linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+}
+
+.l_trafa {
+    width: 31%;
+    font-size: 18px;
+    line-height: 28px;
+    color: white;
+}
+
+.l_control{
+    width: 50%;
+    justify-content: space-between;
+    display: flex;
+}
+
+#c_p2{
+    font-size: 16px;
+}
+
+.l_footer .l_container{
+    padding-top: 5%;
+    justify-content: space-between;
+    display: flex;
+}
+
+.l_menu a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    line-height: 38px;
+}
+
+.c_menu{
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.l_element img{
+    padding-top: 10px;
+}
+
+.l_footer__logo{
+    display: flex;
+}
+
+#c_tra{
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.l_t{
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    background: white;
+}
+
+.l_t p{
+    color: #4089ED;
+    font-size: 26px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.footer_ele{
+    position: relative;
+    z-index: -1;
+    bottom: -50px;
+    text-align: right;
+    
+}
+/* 7. end footer */
+
+
+/* make screen Responsive */
+
+@media only screen and (max-width:1300px){
+    /* over all */
+    p{
+        font-size: 20px;
+
+    }
+
+    /* 1. header responsive */
+
+    /* 1.1 navigatin bar */
+    .line {
+        width: 30px;
+        height: 3px;
+        background: rgb(110, 110, 110);
+        margin: 5px;
+    }
+
+    .hamburger {
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        bottom: 0;
+        transform: translate(-5%, -50%);
+        z-index: 2;
+    }
+
+    .l_nav__items {
+        padding: 100px;
+        background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+        height: 50vh;
+        width: 100%;
+        top: 0;
+        right: 0;
+        position: absolute;
+        align-items: center;
+        flex-direction: column;
+        clip-path: circle(50px at 90% -20%);
+        -webkit-clip-path: circle(50px at 110% -10%);
+        transition: all 0.5s ease-out;
+        pointer-events: none;
+      }
+    .l_nav__items .c_item{
+        display: flex;
+        justify-content: space-around;
+    }
+    .l_nav__items.open {
+        clip-path: circle(1000px at 90% -10%);
+        -webkit-clip-path: circle(1000px at 90% 10%);
+        pointer-events: all;
+    }
+
+    .l_nav__items li {
+        opacity: 0;
+    }
+    .l_nav__items li a {
+        font-size: 20px;
+        color: white;
+        opacity: 1;
+    }
+    .l_nav__items li:nth-child(1) {
+        transition: all 0.5s ease 0.2s;
+    }
+    .l_nav__items li:nth-child(2) {
+        transition: all 0.5s ease 0.4s;
+    }
+    .l_nav__items li:nth-child(3) {
+        transition: all 0.5s ease 0.6s;
+    }
+    .l_nav__items li:nth-child(4) {
+        transition: all 0.5s ease 0.8s;
+    }
+    .l_nav__items li:nth-child(5) {
+        transition: all 0.5s ease 0.9s;
+    }
+    li.fade {
+        opacity: 1;
+    }
+
+    /* end navigation bar */
+
+    .l_menu__button{
+        display: flex;
+    }
+
+    .c_info .l_container{
+        flex-direction: column-reverse;
+    }
+
+    .l_content{
+        margin-top: 5%;
+        width: 100%;
+    }
+
+    .c_button{
+        border-radius: 20px;
+        font-size: 14px;
+        padding: 10px 25px;
+    }
+
+    .l_main__img{
+        display: flex;
+        justify-content: center;
+    }
+
+    .l_main__img img{
+        width: 485px;
+        height: 418px;
+        margin-top: 5%;
+    }
+    /* 1. end heading */
+
+
+    /* 2. service */
+    .c_services_bg-element img {
+        width: 50%;
+        left: 0%;
+        position: absolute;
+    }
+    .c_services_element{
+        width: 80%;
+        left: 0%;
+        position: absolute;
+    }
+    /* 2. end service */
+
+
+    /* 3. leading responsive */
+    .l_leading .l_container{
+        flex-direction: column;
+    }
+
+    .l_leading__img img{
+        width: 455px;
+        height: 333px;
+    }
+
+    .c_top_con h2{
+        font-size: 32px;
+    }
+
+    .c_leading__btn{
+        border-radius: 20px;
+        font-size: 14px;
+        padding: 10px 25px;
+    }
+
+    .c_top_con{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    .l_leading__content{
+        width: 100%;
+    }
+    /* 3. end leading */
+
+    /* 4. download */
+    .l_leading2 .l_container{
+        flex-direction: column-reverse;
+    }
+
+    .l_leading2 .c_leading__btn p{
+        font-size: 14px;
+    }
+    /* end download */
+
+
+    /* 5. testimonails */
+    .l_testimonails .l_container{
+        padding: 0%;
+        width: 90%;
+    }
+
+    .l_test__ele{
+        width: 90%
+    }
+
+    .l_main__slider{
+        flex-direction: column;
+    }
+
+    .l_main__slider img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .l_main__slider .c_second{
+        width: 100%;
+    }
+
+    .c_logo__first{
+        width: 100%;
+    }
+    /* 5. end testimonail */
+
+    /* 6. our article */
+    .l_all_article{
+        display: flex;
+        justify-content: space-around;
+        flex-flow: wrap; 
+        
+    }
+    /* 6.end article */
+
+    /* 7. footer responsive */
+    .l_footer .l_container{
+        flex-direction: column;
+    }
+
+    .l_trafa {
+        width: 100%;
+        line-height: 20px;
+    }
+
+    .l_trafa p{
+        font-size: 15px;
+    }
+
+    .l_trafa #c_p2{
+        font-size: 12px;
+    }
+
+    .c_menu{
+        font-size: 15px;
+    }
+
+    .l_control{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .l_control a{
+        font-size: 12px;
+    }
+
+    .l_element img{
+        width: 80px;
+    }
+    /* 7. end footer */
+
+}
+
+
+
+@media only screen and (max-width:500px){
+    /* overall */
+    .l_container{
+        width: 80%;
+    }
+
+    /* 1. heading */
+    .l_main__img img{
+        width: 277px;
+        height: 239px;
+        margin-top: 35%;
+    }
+
+    .c_consult{
+        margin-left: 25%;
+    }
+
+    .l_content h1{
+        font-size: 30px;
+    }
+    /* 1. end heading */
+
+    /* 2. service */
+    .c_services_bg-element img{
+        width: 60%;
+        left: 0%;
+        position: absolute;
+    }
+
+    .c_services_element{
+        width: 60%;
+        position: absolute;
+    }
+
+    #services{
+        width: 90%;
+        margin: auto;
+    }
+
+    .l_services{
+        width: 100%;
+        margin: auto;
+        padding: 0 20px;
+    }
+
+    .l_allservices{
+        margin: 10px;
+    }
+
+    .l_frame{
+        margin-top: 5px;
+        width: 290px;
+        min-height: 250px;
+    }
+    /* 2. end service */
+
+
+    /* 3. leading */
+    .c_top_con h2{
+        font-size: 26px;
+    }
+
+    .leading_ele1 img{
+        margin-top: 50px;
+        width: 50px; 
+    }
+
+    .l_leading__img img{
+        width: 260px;
+        height: 190px;
+    }
+
+      /* leading_ele */
+      .leading_ele img{
+        width: 50px;
+    }
+    /* 3. end leading */
+
+    /* 5. testimonails */
+    .c_logo__first {
+        align-items: center;
+    }
+
+    .c_logo__first img{
+        width: 75px;
+        height: 75px;
+    }
+
+    .l_test__title h3{
+        font-size: 14px;
+    }
+
+    .c_first h4{
+        font-size: 14px;
+    }
+
+    .c_first p{
+        font-size: 12px;
+    }
+
+    .c_second p{
+        font-size: 12px;
+    }
+
+    .l_testimonails .l_container{
+        padding: 0;
+        width: 95%;
+    }
+
+    .l_test__ele{
+        width: 95%
+    }
+
+    /* 6. our article */
+    .l_all_article img{
+        width: 300px;
+        height: 210px;
+    }
+
+    .l_article{
+     margin: 1.5rem;
+     width: 300px;
+     height: 500px
+    }
+
+    .c_article_title{
+        font-size: 26px;
+    }
+
+    .c_article_rectanhle{
+        margin-left: 43%;
+    }
+
+    .l_article_btn button{
+        width: 120px;
+        height: 45px;
+    }
+    /* 6. end our article */
+
+
+    /* 7. footer */
+    .l_element img{
+        width: 60px;
+    }
+    /* 7. end footer */
+
+}
